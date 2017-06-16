@@ -1,7 +1,7 @@
-*{	
+*{
 	margin: 0;
 	padding: 0;
-	outline: none;	
+	outline: none;
 }
 h1 {
 	font-family: 'PlayfairDisplay-Black';
@@ -18,7 +18,7 @@ h2, h3 {
 	height: 90%;
 	margin: 0 auto;
 	/*border-style: dotted;*/
-	padding: 0;	
+	padding: 0;
 }
 .fw-container{
 	width: 100%;
@@ -123,6 +123,7 @@ nav{
 	/*border-color: yellow;*/
 	margin: 0px auto;
 	/*height: calc(100% - 70px);*/
+	position: relative;
 }
 .mainWrap h1{
 	/*line-height: 200px;*/
@@ -142,7 +143,7 @@ nav{
 .line1 {
 	margin-top: 30px;
 	margin-bottom: 30px;
-	margin-left: calc(50% - 50px); 
+	margin-left: calc(50% - 50px);
 	margin-bottom: 20px;"
 }
 
@@ -193,12 +194,54 @@ nav{
 	padding-top: 70px;
 	position: relative;
 }
-#section_three h1{
+#section_three h2{
+	color: white;
+	top: 80%;
+	left: 38%;
+	line-height: 0;
+	/*display: block;*/
+	position: absolute;
 	color: white;
 }
-#section_three img{
-	margin: 25% auto;
+#section_three .video-image{
+	width: 200px;
+	height: 140px;
+	background-image: url('../img/video-icon.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0% auto;
+	/*transition: all 0s;*/
+	z-index: 0;
 }
+.hover-div{
+		width: 270px;
+		height: 190px;
+		margin-top: 20%;
+		margin-left: auto;
+		margin-right: auto;
+}
+.hover-div:hover h2{
+	text-decoration: underline;
+}
+.video-image2{
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0% auto;
+	width: 200px;
+	height: 140px;
+	visibility: hidden;
+	background-image: url('../img/video-icon-active.png');
+	z-index: 1;
+}
+.hover-div:hover .video-image2{
+	visibility: visible;
+	background-image: url('../img/video-icon-active.png');
+}
+.hover-div:hover .video-image{
+	visibility: hidden;
+	z-index: 0;
+}
+
 /*__________________________section four start*/
 
 #section_four{
@@ -264,7 +307,7 @@ nav{
 	color: white;
 	/*font-family: Times, serif;*/
 	/*font-style: italic;*/
-	font-family: 'Playfair Display', serif; 	
+	font-family: 'Playfair Display', serif;
 }
 #section_seven p, h3 {
 	color: white;
@@ -593,7 +636,7 @@ input{
 button{
 	border-color: #00e0d0;
 	background-color: transparent;
-	width: 120px; 
+	width: 120px;
 	height: 40px;
 	color: #00e0d0;
 	font-size: 18px;
@@ -609,8 +652,8 @@ button:hover{
 }
 #section_four .fa {
 	/*color: #2fbacd;*/
-	  background: linear-gradient(#2fbacd, #1aa7ba); 
-  -webkit-background-clip: text;  
+	  background: linear-gradient(#2fbacd, #1aa7ba);
+  -webkit-background-clip: text;
   color: transparent;
 }
 p{
@@ -639,7 +682,7 @@ nav{
 }
 .mainWrap{
 	padding-top: calc(50% - 125px)
-	
+
 }
 
 section{
@@ -670,7 +713,7 @@ section{
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 32px;
-	
+
 
 }
 
