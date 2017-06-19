@@ -116,8 +116,8 @@ nav{
 	text-align: center;
 	/*border-style: dotted;*/
 	/*border-color: red;*/
-	margin: 0px auto;
-	width: 100%;
+	/*margin: 0px auto;*/
+	/*width: 100%;*/
 	height: calc(100% - 70px);
 	clear: both;
 }
@@ -145,6 +145,7 @@ nav{
 	/*font-size: 40px;*/
 	color: white;
 	word-spacing: 3px;
+	margin: 0 35px;
 	/*text-transform: none;*/
 }
 .line1 {
@@ -388,6 +389,7 @@ footer h3 {
 }
 .footer-content p {
 	color: white;
+	margin-left: 10px;
 }
 footer .container{
 	margin-top: 50px;
