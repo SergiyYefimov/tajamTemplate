@@ -13,12 +13,17 @@ h2, h3 {
 
 }
 .container{
-	width: 1000px;
+	width: 960px;
 	/*width: 60vw;*/
 	height: 90%;
 	margin: 0 auto;
 	/*border-style: dotted;*/
-	padding: 0;
+	/*padding: 0;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0;
+	padding-bottom: 0;
+	/*position: absolute;*/
 }
 .fw-container{
 	width: 100%;
@@ -106,11 +111,13 @@ nav{
 }
 .mainWrap{
 	/*line-height: calc(100vh - 70px);*/
+	position: absolute;
 	display: block;
 	text-align: center;
 	/*border-style: dotted;*/
 	/*border-color: red;*/
 	margin: 0px auto;
+	width: 100%;
 	height: calc(100% - 70px);
 	clear: both;
 }
@@ -426,6 +433,7 @@ footer .social-links{
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 30px;
+	position: relative;
 }
 .smallBlock{
 /*	margin-top: 10px;*/
@@ -659,82 +667,3 @@ button:hover{
 p{
 	color: #7e7d82;
 }
-
-
-
-
-
-
-
-/*p{
-	font-family: 'Raleway', sans-serif;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.container{
-	width: 940px;
-	margin: 0px auto;
-
-}
-nav{
-	position: fixed;
-
-}
-.mainWrap{
-	padding-top: calc(50% - 125px)
-
-}
-
-section{
-	width: 100%;
-	height: 400px;
-	position: relative;
-	background-image: url(../img/header_photo.jpg);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-
-
-}
-.overlay{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-color: rgba(64, 48, 105, 0.60);
-}
-.mainWrap button{
-	font-family: 'Raleway', sans-serif;
-	display: block;
-	margin: 50px auto;
-
-}
-.mainWrap h1{
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	font-size: 32px;
-
-
-}
-
-.item{
-	width: 200px;
-	height: 200px;
-	position: relative;
-	background-color: red;
-	transition: all .4s;
-}
-.miniOverlay{
-	width: 200px;
-	/*height: 200px;*/
-/*	position: absolute;
-	top: 0;
-	left: 0;
-	height: 0px;
-	background-color: rgba(0, 0, 0, 0.5);
-	transition: all .5s;
-
-}
-.item:hover .miniOverlay{
-	height: 200px;
-}*/
